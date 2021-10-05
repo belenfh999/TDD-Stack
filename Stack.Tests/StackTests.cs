@@ -7,6 +7,13 @@ namespace Stack.Tests
     public class StackTests
     {
         [TestMethod]
+        public void CannPopOffEmptyStack()
+        {
+            var stack = new BasicStack(10);
+            Assert.AreEqual(null,stack.Pop());
+        }
+
+        [TestMethod]
         public void CanPopOffItem()
         {
             var stack = new BasicStack(10);
