@@ -42,7 +42,7 @@ The testing framework that will be used is MSTest.
 
 - Create the Stack.Tests project by running the following command:
 
-`dotnet new xunit -o Stack.Tests`
+`dotnet new mstest -o Stack.Tests`
 
 - Rename the file UnitTest1.cs to StackTests.cs
 
