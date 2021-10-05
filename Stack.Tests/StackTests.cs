@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Stack.Library;
+using System;
 
 namespace Stack.Tests
 {
@@ -43,6 +44,13 @@ namespace Stack.Tests
             Assert.AreEqual("fizz",stack.Pop());
             Assert.AreEqual("fizzbuzz",stack.Pop());
             Assert.AreEqual(1,stack.Pop());
+        }
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void CannotPushNullItem()
+        {
+            var stack = new BasicStack(10);
+            stack.Push(null);
         }
     }
 }
