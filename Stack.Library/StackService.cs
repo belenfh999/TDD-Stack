@@ -14,8 +14,15 @@ namespace Stack.Library
 
         public void Push(object el)
         {
-            _currentIndex++;
-            _elements[_currentIndex] = el;
+            if (el == null)
+            {
+                throw new ArgumentNullException("Null cannot be pushed into the stack.");
+            }
+            else
+            {
+                _currentIndex++;
+                _elements[_currentIndex] = el;
+            }
         }
 
         public object Pop()
@@ -24,9 +31,12 @@ namespace Stack.Library
             {
                 return null;
             }
-            var element = _elements[_currentIndex];
-            _currentIndex--;
-            return element; 
+            else
+            {
+                var element = _elements[_currentIndex];
+                _currentIndex--;
+                return element;
+            } 
         }
     }
 }
