@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/belenferron/Desktop/TDD-Stack/Stack.Tests/Stack.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/Stack.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/Stack.Library.csproj",
+        "projectName": "Stack.Library",
+        "projectPath": "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/Stack.Library.csproj",
+        "packagesPath": "/Users/belenferron/.nuget/packages/",
+        "outputPath": "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/belenferron/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/belenferron/Desktop/TDD-Stack/Stack.Tests/Stack.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/belenferron/Desktop/TDD-Stack/Stack.Tests/Stack.Tests.csproj",
+        "projectName": "Stack.Tests",
+        "projectPath": "/Users/belenferron/Desktop/TDD-Stack/Stack.Tests/Stack.Tests.csproj",
+        "packagesPath": "/Users/belenferron/.nuget/packages/",
+        "outputPath": "/Users/belenferron/Desktop/TDD-Stack/Stack.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/belenferron/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/Stack.Library.csproj": {
+                "projectPath": "/Users/belenferron/Desktop/TDD-Stack/Stack.Library/Stack.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

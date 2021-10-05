@@ -1,0 +1,12 @@
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/bin/Debug/net5.0/Stack.Library.deps.json
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/bin/Debug/net5.0/Stack.Library.dll
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/bin/Debug/net5.0/ref/Stack.Library.dll
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/bin/Debug/net5.0/Stack.Library.pdb
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.csproj.AssemblyReference.cache
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.AssemblyInfoInputs.cache
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.AssemblyInfo.cs
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.csproj.CoreCompileInputs.cache
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.dll
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/ref/Stack.Library.dll
+/Users/belenferron/Desktop/TDD-Stack/Stack.Library/obj/Debug/net5.0/Stack.Library.pdb
