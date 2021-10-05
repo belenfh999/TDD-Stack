@@ -45,12 +45,23 @@ namespace Stack.Tests
             Assert.AreEqual("fizzbuzz",stack.Pop());
             Assert.AreEqual(1,stack.Pop());
         }
+
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
         public void CannotPushNullItem()
         {
             var stack = new BasicStack(10);
             stack.Push(null);
+        }
+
+        [TestMethod]
+        public void CannotPushNullItem2()
+        {
+            var stack = new BasicStack(10);
+
+            Assert.ThrowsException<ArgumentNullException>(() => {
+                stack.Push(null);
+            });
         }
     }
 }
