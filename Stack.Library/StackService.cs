@@ -9,18 +9,22 @@ namespace Stack.Library
         public BasicStack(int capacity)
         {
             _elements = new object[capacity];
-            _currentIndex = 0;
+            _currentIndex = -1;
         }
 
         public void Push(object el)
         {
-            _elements[_currentIndex] = el;
             _currentIndex++;
+            _elements[_currentIndex] = el;
         }
 
         public object Pop()
         {
-            var element = _elements[_currentIndex - 1];
+            if (_currentIndex == -1)
+            {
+                return null;
+            }
+            var element = _elements[_currentIndex];
             _currentIndex--;
             return element; 
         }
