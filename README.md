@@ -24,7 +24,7 @@ The testing framework that will be used is MSTest.
 
 - Simply execute the bash script giving it as a parameter the name of the Project:
 
-`./create_project_TDD.sh ImmutableStack`
+`./create_project_TDD.sh Stack`
 
 **NOTE:** The script will check whether dotnet is installed and in case it is not, it will install it (only available for LINUX/MACOSX computers).
 
