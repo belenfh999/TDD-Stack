@@ -7,8 +7,8 @@ The testing framework that will be used is MSTest.
 
 - Pop: An item can be popped off the stack.
 - Last In First Out (LIFO) Stack.
-- An empty stack doesn’t cause failure (throwing an exception).
-- Null values cannot be pushed into the stack.
+- An empty stack doesn’t cause failure (no exceptions are thrown).
+- Null values cannot be pushed into the stack (an exception should be raised).
 
 ## Prerequisites
 
