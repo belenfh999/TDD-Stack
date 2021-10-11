@@ -16,6 +16,18 @@ The testing framework that will be used is MSTest.
 | ------------------------ | --------------------- | ------------------ | ----------- |
 | C#                       | MSTest                | Visual Studio Code | .NET Core   |
 
+## Creating The Project using a bash script
+
+- Give execution permissions to create_project_TDD.sh in case it does not have them:
+
+`chmod +x create_project_TDD.sh`
+
+- Simply execute the bash script giving it as a parameter the name of the Project:
+
+`./create_project_TDD.sh ImmutableStack`
+
+**NOTE:** The script will check whether dotnet is installed and in case it is not, it will install it (only available for LINUX/MACOSX computers).
+
 ## Creating The Project From Scratch
 
 - Go to the directory where you want your project to be and run:
